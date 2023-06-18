@@ -1,0 +1,91 @@
+body
+{
+    background-color: black;
+    color: white;
+    
+
+}
+
+div.naglowek-parent
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+div.naglowek
+{
+    align-self: center;
+    text-align: center;
+    border: 1px;
+    width: 50%;
+    border-color: white;
+    border-style: solid;
+}
+div.menu
+{
+    padding-left: 25%;
+    justify-content: center; 
+    align-items: center;
+}
+div.menu2
+{
+    align-self: center;
+    text-align: center;
+    border: 1px;
+    width: 66.5%;
+    border-color: white;
+    border-style: solid;
+}
+h1
+{
+    font-variant: small-caps;
+}
+a {
+    text-decoration: none;
+    color: white;
+ }
+div.menu2:hover
+{
+    border-color: gray;
+    width: 66.5%;
+
+}
+
+div.menu2:active
+{
+    border-color: black;
+    width: 66.5%;
+
+}
+/** DRUGA STRONA **/
+
+div.papier
+{
+    display: block;
+    border: 1px;
+    height: 1000px;
+    width: 900px;
+    border-color: white;
+    border-style: solid;
+}
+
+body.drugastrona
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+div.zdjecie
+{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    margin: 0px;
+    padding 0px;
+}
+div.CV
+{
+    height: 100px;
+    width: 100px;
+    font-size: 150px;
+}
