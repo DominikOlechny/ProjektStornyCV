@@ -61,9 +61,10 @@ div.menu2:active
 
 div.papier
 {
+    display: flex;
     display: block;
     border: 1px;
-    height: 1000px;
+    height: 1250px;
     width: 900px;
     border-color: white;
     border-style: solid;
@@ -77,15 +78,43 @@ body.drugastrona
 }
 div.zdjecie
 {
-    background-color: red;
+    background-color: gray;
     height: 150px;
-    width: 150px;
+    width: 100%;
     margin: 0px;
-    padding 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 125PX;
 }
-div.CV
-{
-    height: 100px;
-    width: 100px;
-    font-size: 150px;
-}
+
+.section {
+    text-align: center;
+    margin-bottom: 20px;
+    font-color: white;
+  }
+
+  .section h2 {
+    margin-bottom: 10px;
+  }
+
+  .section .sub-heading {
+    font-weight: bold;
+  }
+
+  .section ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .section ul li {
+    margin-bottom: 5px;
+  }
+
+  .section .date {
+    font-style: italic;
+  }
+
+  .section .description {
+    margin-top: 5px;
+  }
